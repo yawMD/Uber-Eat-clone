@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif, Bank Gothic;
+}
+header{
+    background: white;
+    /*rebeccapurple;*/
+}
+input[type=text], select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #EEEEEE;
+    outline: none;
+    border: none;
+}
+svg{
+    cursor: pointer;
+}
+nav{
+    width: 100%;
+    border-bottom: 2px solid #e6e6e6;
+    top: 0;
+    position: sticky;
+    background: white;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 90%;
+}
+.nav2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 90%;
+    border-bottom: 2px solid #e6e6e6;
+}
+#res{
+    padding: 20px;
+}
+#res:hover{
+    border-bottom: 1px solid #222222;
+    cursor: pointer;
+}
+#comp{
+    padding: 20px;
+}
+#comp:hover{
+    border-bottom: 1px solid #222222;
+    cursor: pointer;
+}
+.search{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EEEEEE;
+    border-radius: 20px;
+}
+nav ul{
+    display: flex;
+    color: black;
+    list-style-type: none;
+
+}
+ul li{
+    font-size: 18px;
+    padding-left: 40px;
+    cursor: pointer;
+}
+.logo{
+    cursor: pointer;
+}
+.main-sec{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+}
+.side-menu{
+    width: 20%;
+    top: 100px;
+    position: sticky;
+    max-height: calc(100vh - 140px);
+}
+.main-menu{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.main-menu a{
+    text-decoration: none;
+    color: black;
+}
+.cards{
+    max-height: 320px;
+    width: 100%;
+    background: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    box-shadow: -2px 20px 32px -29px rgba(0,0,0,0.85);
+    -webkit-box-shadow: -2px 20px 32px -29px rgba(0,0,0,0.85);
+    -moz-box-shadow: -2px 20px 32px -29px rgba(0,0,0,0.85);
+}
+.des{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.det{
+    display: flex;
+}
+.price{
+    padding-right: 10px;
+}
+.cards img {
+    width: 100%;
+    height: 100%;
+}
+.side{
+    display: flex;
+    border-bottom:1px solid #EEEEEE;
+    padding: 20px;
+}
+.sorted{
+    font-size: 12px;
+    font-weight: bold;
+    justify-content: left;
+    text-align: left;
+    padding-top: 20px;
+}
+#one{
+    background: linear-gradient(rgba(32, 31, 31, 0.4), rgba(16, 16, 16, 0.6)),url("tovet.jpeg") no-repeat;background-size: cover;
+}
+.one > p{
+    padding: 100px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    width: 50%;
+}
+.one{
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#two{
+    background: linear-gradient(rgba(32, 31, 31, 0.4), rgba(16, 16, 16, 0.6)),url("red.jpg") no-repeat;background-size: cover;
+}
+#three{
+    background: linear-gradient(rgba(32, 31, 31, 0.4), rgba(16, 16, 16, 0.6)),url("benjamin-hazael-rojas-garcia-VZ9zJ9wk2AE-unsplash.jpg") no-repeat;background-size: cover;
+}
+#four{
+    background: linear-gradient(rgba(32, 31, 31, 0.4), rgba(16, 16, 16, 0.6)),url("lily-banse--YHSwy6uqvk-unsplash.jpg") no-repeat;background-size: cover;
+}
+
+#five{
+    background: linear-gradient(rgba(32, 31, 31, 0.4), rgba(16, 16, 16, 0.6)),url("hot.jpg") no-repeat;background-size: cover;
+}
+#six{
+    background: linear-gradient(rgba(32, 31, 31, 0.4), rgba(16, 16, 16, 0.6)),url("lucas-andrade-6Oosz_OTBaY-unsplash.jpg") no-repeat;background-size: cover;
+}
+#seven{
+    background: linear-gradient(rgba(32, 31, 31, 0.4), rgba(16, 16, 16, 0.6)),url("selection-of-chinese-food-that-may-cause-chinese-restaurant-syndrome.jpeg") no-repeat;background-size: cover;
+}
+#eight{
+    background: linear-gradient(rgba(32, 31, 31, 0.4), rgba(16, 16, 16, 0.6)),url("magic-foods.jpeg") no-repeat;background-size: cover;
+}
+#nine{
+    background: linear-gradient(rgba(32, 31, 31, 0.4), rgba(16, 16, 16, 0.6)),url("dinners.jpeg") no-repeat;background-size: cover;
+}
+#ten{
+    background: linear-gradient(rgba(32, 31, 31, 0.4), rgba(16, 16, 16, 0.6)),url("sag.jpeg") no-repeat;background-size: cover;
+}
+#eleven{
+    background: linear-gradient(rgba(32, 31, 31, 0.4), rgba(16, 16, 16, 0.6)),url("hotgrill.jpeg") no-repeat;background-size: cover;
+}
+#twelve{
+    background: linear-gradient(rgba(32, 31, 31, 0.4), rgba(16, 16, 16, 0.6)),url("luxury.jpeg") no-repeat;background-size: cover;
+}
+
+.navbar{display: none}
+@media only screen and (max-width: 900px){
+    .search{
+        width: 100%;
+        margin-top: 0px;
+        align-items: center;
+    }
+    .search input{
+        width: 80%;
+    }
+    .logo{
+        display: none;
+    }
+    nav{
+        width: 100%;
+        padding-bottom: 20px;
+        border-bottom: none;
+    }
+    nav ul{
+        display: none;
+    }
+    .nav2{
+        display: none;
+    }
+    .cards{
+        box-shadow: none;
+    }
+    .one{
+        border-radius: 20px;
+    }
+    .side-menu .sorted{
+        display: none;
+    }
+    .side-menu{
+        display: flex;
+        overflow: auto;
+        width: 100%;
+        font-size: 10px;
+        background: white;
+        top: 0;
+        position: sticky;
+    }
+    .main-menu{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        padding-bottom: 16%;
+    }
+    .main-sec{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar {
+        height: 8%;
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        color: black;
+        background: white;
+    }
+
+    .navbar a {
+        display: flex;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    .navbar a svg{
+        color:black;
+    }
+
+    .navbar a:hover {
+        color: grey !important;
+    }
+
+}
+
